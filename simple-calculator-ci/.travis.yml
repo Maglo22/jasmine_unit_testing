@@ -10,5 +10,5 @@ addons:
 before_install:
   - google_chrome_stable --headless --disable-gpu --remote-debugging-=9222 http://localhost &
 before_script:
-  - "sudo chmown root /opt/google/chrome/chrome-sandbox"
+  - "sudo chown root /opt/google/chrome/chrome-sandbox"
   - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
