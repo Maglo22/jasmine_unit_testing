@@ -1,0 +1,22 @@
+{
+  "name": "simple-calculator",
+  "version": "0.1.0",
+  "description": "simple web calculator",
+  "main": "main.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "br1",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine-core": "^3.7.1",
+    "karma": "^6.3.2",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-jasmine-matchers": "^4.0.2",
+    "puppeteer": "^9.1.1"
+  }
+}
