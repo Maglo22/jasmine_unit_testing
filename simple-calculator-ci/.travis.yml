@@ -8,6 +8,7 @@ script:
 addons:
   chrome: stable
 before_install:
+  - cd simple-calculator-ci
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 before_script:
   - "sudo chown root /opt/google/chrome/chrome-sandbox"
